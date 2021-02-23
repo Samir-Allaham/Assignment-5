@@ -2,9 +2,9 @@
 let r = 0
 let answer = 0
 document.getElementById('button').addEventListener('click', area)
-document.getElementById('buttonTwo').addEventListener('click', circumference)
+document.getElementById('button-two').addEventListener('click', circumference)
 // A functions is made to calculate area and circumference
-function area() {
+function area () {
   r = document.getElementById('math').value
   r = parseInt(r)
   answer = Math.PI * (r * r)
