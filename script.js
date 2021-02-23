@@ -7,13 +7,13 @@ document.getElementById('button-two').addEventListener('click', circumference)
 function area () {
   r = document.getElementById('math').value
   r = parseInt(r)
-  answer = Math.PI * (r * r)
+  answer = Math.PI * (r /2) ** 2
   document.getElementById('answer').innerHTML = answer
 }
 // Another functions has been made for the second button
 function circumference () {
   r = document.getElementById('math').value
   r = parseInt(r)
-  answer = 2 * r
+  answer = Math.PI * (r)
   document.getElementById('answer').innerHTML = answer
 }
